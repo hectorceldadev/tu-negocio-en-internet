@@ -6,7 +6,6 @@ import GridBackground from "./GridBackground"
 import SoftBackground from "./SoftBackground"
 import RegularBackground from './RegularBackground';
 import CrossBackground from "./CrossBackground"
-import HexBackground from "./HexBackground"
 import WaveBackground from "./WaveBackground"
 
 interface Props {
@@ -27,9 +26,6 @@ const BackgroundSelector = ({ children }: Props) => {
     }
     if (background === 'CrossBackground') {
         return <CrossBackground>{children}</CrossBackground>
-    }
-    if (background === 'HexBackground') {
-        return <HexBackground>{children}</HexBackground>
     }
     if (background === 'WaveBackground') {
         return <WaveBackground>{children}</WaveBackground>
