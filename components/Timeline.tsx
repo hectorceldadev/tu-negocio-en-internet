@@ -30,7 +30,7 @@ gsap.registerPlugin(ScrollTrigger)
 const Timeline = () => {
 
     const containerRef = useRef(null)
-    const marqueeRef = useRef(null)
+    const marqueeRef = useRef<HTMLDivElement | null>(null)
 
     useGSAP(() => {
 
