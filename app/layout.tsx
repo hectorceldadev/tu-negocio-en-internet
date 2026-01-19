@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: metadataInfo.openGraph.url, 
     siteName: metadataInfo.openGraph.siteName,
     locale: metadataInfo.openGraph.locale,
-    type: metadataInfo.openGraph.type,
+    type: metadataInfo.openGraph.type as "website",
     images: metadataInfo.openGraph.images.map(image => ({
         url: image.url,
         width: image.width,
