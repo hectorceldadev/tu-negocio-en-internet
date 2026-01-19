@@ -135,31 +135,31 @@ export interface SiteConfig {
 export const SITE_CONFIG: SiteConfig = {
     metadataInfo: {
         title: {
-            default: 'Tu Negocio En Internet | Página web por 50€/mes'
+            default: 'Tu Negocio En Internet | Página web por 50€'
         },
         description: 'Diseñamos webs por 50€/mes. Aumentamos el trafico de tu negocio de forma organica. Especialistas desarrollo y diseño web. Ponte en contacto aquí ->',
         siteUrl: 'https://tunegocioeninternet.es', //** */ Pon aquí el dominio real cuando lo tengas
         keywords: ['Diseño web', 'Crear página web', 'Desarrollo web', 'Página web para mi negocio', 'Web local', 'Web Negocio', 'Página web', 'Pagina web crear', 'Pagina web gratis', 'Pagina web barata', 'Pagina web responsive', 'Página web Kit digital', 'Pagina web y dominio', 'Pagina web y hosting', 'Pagina web y posicionamiento', 'Pagina web y venta', 'Diseño sitio web', 'Crear sitio web', 'Sitio web'],
         openGraph: {
             title: "Tu Negocio En Internet | Página web por 50€",
-            description: "Diseñamos webs por 50€/mes. Ponte en contacto aquí ->",
+            description: "Diseñamos webs por 50€. Ponte en contacto aquí ->",
             url: "https://tunegocioeninternet.es",
-            siteName: "tunegocioeninternet",
+            siteName: "Tu Negocio En Internet",
             locale: "es_ES",
             type: "website",
             images: [
                 {
-                    url: "/images/open-graph/open-graph.png", //*COLOCAR IMAGEN
+                    url: "/images/open-graph/open-graph.png",
                     width: 1200,
                     height: 630,
-                    alt: "Tu Negocio En Internet | Página web por 50€/mes",
+                    alt: "Tu Negocio En Internet | Página web por 50€",
                 }
             ]
         }
     },
     schemaInfo: {
-        businessType: 'ProfessionalSercive', //**AJUSTAR SI ES SALON DE BELLEZA O PELUQUERIA */
-        address: { //** MODIFICAR A DIRECCION
+        businessType: 'ProfessionalSercive', 
+        address: { 
             city: 'Valencia',
         },
         areaServed: [
@@ -171,17 +171,12 @@ export const SITE_CONFIG: SiteConfig = {
             "Bilbao",
         ],
         priceRange: '€€',
-        openingHours: [ //**CONFIGURAR HORARIOS */
+        openingHours: [ 
             {
-                days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-                opens: '10:00',
-                closes: '20:00'
+                days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                opens: '00:00',
+                closes: '24:00'
             },
-            {
-                days: ['Saturday'],
-                opens: '10:00',
-                closes: '14:00'
-            }
         ]
     },
     navBar: {
@@ -193,6 +188,10 @@ export const SITE_CONFIG: SiteConfig = {
             {
                 href: '/',
                 text: 'Inicio'
+            },
+            {
+                href: '/servicio',
+                text: 'Servicio'
             },
             {
                 href: '/contacto',
@@ -311,7 +310,7 @@ export const SITE_CONFIG: SiteConfig = {
     },
     footer: {
         logo: 'Tu Negocio En Internet',
-        desc: 'La nueva referencia de diseño web en España. Especialistas en diseño y desarrollo web para darle la imagen digital que necesita tu negocio. Tu sitio de confianza para escalar tu local.',
+        desc: 'La nueva referencia de diseño web en España. Especialistas en diseño y desarrollo web para darle la imagen digital que necesita tu negocio. Tu sitio de confianza para escalar tu negocio.',
         socialLinks: [
             { icon: "Phone", href: "https://wa.me/[34634779186]?text=Hola%20Tu%20Negocio%20En %Internet%20estaba%20intersado%en%20la%20creación%20de%20un%20sitio%20web" }
         ],

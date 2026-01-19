@@ -76,7 +76,7 @@ export default function Navbar() {
                   <Link
                     key={index}
                     href={item.href}
-                    className={`text-md font-bold text-foreground hover:text-primary transition-colors duration-150 tracking-wide px-2 py-1 ${pathname === item.href ? 'ring ring-primary rounded-full': ''}`}
+                    className={`text-md font-bold text-foreground hover:text-primary transition-colors duration-150 tracking-wide px-2 py-1 ${pathname === item.href ? 'text-primary': ''}`}
                   >
                     {item.text}
                   </Link>

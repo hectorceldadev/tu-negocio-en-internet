@@ -84,7 +84,7 @@ export const Reviews = () => {
             className="w-full z-10 py-10 overflow-hidden relative font-regular">
             
             {/* --- CABECERA --- */}
-            <div className="max-w-7xl mx-auto px-5 lg:px-10 mb-16">
+            <div className="max-w-7xl mx-auto flex flex-col justify-center items-center px-5 lg:px-10 mb-16">
                 <span className="text-primary-light font-bold tracking-[0.2em] uppercase text-xs mb-3 block animate-header">
                     {reviews.badge}
                 </span>
@@ -94,7 +94,7 @@ export const Reviews = () => {
                         {reviews.title.split(' ').slice(-2).join(' ')}
                     </span>
                 </h2>
-                <p className="text-muted mt-4 max-w-md animate-header">
+                <p className="text-muted mt-4 max-w-md text-center animate-header">
                     {reviews.desc}
                 </p>
             </div>

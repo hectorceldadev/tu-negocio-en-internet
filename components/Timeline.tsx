@@ -15,8 +15,8 @@ const steps = [
     },
     {
         number: '02',
-        title: 'Reunión de 10 min',
-        description: 'Te enseño la maqueta que he diseñado exclusivamente para tu peluquería. Ves cómo queda antes de pagar nada.',
+        title: 'Reunión de estructuración',
+        description: 'Te enseño la maqueta que he diseñado exclusivamente para tu negocio. Ves cómo queda antes de pagar nada.',
     },
     {
         number: '03',
@@ -132,7 +132,7 @@ const Timeline = () => {
                         href={'/contacto'}
                         className="group w-full sm:w-auto relative overflow-hidden rounded-xl bg-primary px-8 py-4 text-foreground transition-all duration-150 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25 active:scale-95"
                     >
-                        <div className="relative z-10 flex items-center justify-center gap-2 font-bold uppercase tracking-wide text-sm sm:text-base">
+                        <div className="relative z-10 flex items-center justify-center gap-2 font-bold uppercase tracking-wide text-md sm:text-base">
                             ¿Comenzamos?
                             <ArrowUpRight className="w-5 h-5 group-hover:-translate-y-1 group-hover:translate-x-1 duration-300 transition-transform" />
                         </div>

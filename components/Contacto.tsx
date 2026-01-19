@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { MapPin, Phone, Clock, Send, Instagram, Smartphone, type LucideIcon } from 'lucide-react'
+import { Phone, Clock, Send, Instagram, Smartphone, type LucideIcon } from 'lucide-react'
 import { SITE_CONFIG } from '@/config'
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger"
@@ -18,7 +18,7 @@ const iconMap: Record<string, LucideIcon> = {
 };
 
 export const Contacto = () => {
-    // Extraemos la configuración
+    
     const { contacto } = SITE_CONFIG;
     const { info } = contacto;
 
@@ -63,14 +63,14 @@ export const Contacto = () => {
             <div className="max-w-7xl mx-auto px-6 relative z-10">
 
                 {/* --- CABECERA --- */}
-                <div className="mb-16 md:text-left">
+                <div className="mb-16 flex flex-col justify-center items-center">
                     <span className="text-primary-light font-bold tracking-[0.2em] uppercase text-xs mb-3 block animate-header">
                         {contacto.badge}
                     </span>
                     <h2 className={`text-[42px] md:text-5xl uppercase text-foreground mb-6 font-title leading-[0.95] font-semibold animate-header`}>
                         {contacto.title} 
                     </h2>
-                    <p className="text-muted text-lg max-w-xl animate-header">
+                    <p className="text-muted text-center text-lg max-w-xl animate-header">
                         {contacto.desc}
                     </p>
                 </div>
