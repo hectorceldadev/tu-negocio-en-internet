@@ -132,7 +132,7 @@ export default function Navbar() {
 
           <div className="mt-auto pt-6">
             <Link
-              href={navBar.cta.href}
+              href='https://wa.me/34634779186?text=Hola%20Tu%20Negocio%20En%20Internet%20estaba%20intersado%20en%20la%20creación%20de%20un%20sitio%20web'
               target="_blank"
               className="flex items-center justify-center gap-3 w-full bg-primary text-white py-5 rounded-3xl font-bold text-xl shadow-2xl shadow-primary/20 active:scale-95 transition-transform"
             >

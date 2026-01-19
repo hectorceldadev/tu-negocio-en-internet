@@ -101,13 +101,13 @@ const Servicios = () => {
   return (
     <section 
     ref={containerRef}
-    className={`${pathname === '/servicio' ? 'pt-30 pb-16' : 'py-16'} relative overflow-hidden font-regular`} id="servicios">  
+    className={`${pathname === '/servicio' ? 'pt-32 pb-16' : 'py-16'} relative overflow-hidden font-regular`} id="servicios">  
       <div className="container mx-auto px-4">
         
         {/* Cabecera */}
         <div className="text-center max-w-3xl mx-auto mb-10">
           <h2 className="text-4xl md:text-5xl text-foreground font-title font-bold mb-6 tracking-tight leading-tight animate-header">
-            ¿Que <span className="text-primary">Ofrecemos?</span>
+            ¿Qué <span className="text-primary">Ofrecemos?</span>
           </h2>
           <p className="text-foreground text-lg md:text-xl leading-relaxed max-w-2xl mx-auto animate-header">
             Te ofrecemos un servicio completo para que tu negocio crezca y puedas centrarte en lo verdaderamente importa.

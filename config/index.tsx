@@ -158,7 +158,7 @@ export const SITE_CONFIG: SiteConfig = {
         }
     },
     schemaInfo: {
-        businessType: 'ProfessionalSercive', 
+        businessType: 'ProfessionalService', 
         address: { 
             city: 'Valencia',
         },
@@ -200,7 +200,7 @@ export const SITE_CONFIG: SiteConfig = {
         ],
         cta: {
             text: '¡Quiero mi web!',
-            href: '/contacto'
+            href: 'https://wa.me/34634779186?text=Hola%20Tu%20Negocio%20En%20Internet%20estaba%20intersado%20en%20la%20creación%20de%20un%20sitio%20web'
         }
     },
     hero: {
@@ -208,7 +208,7 @@ export const SITE_CONFIG: SiteConfig = {
         title: 'Tu web  \npor 50€/mes',
         desc: 'La nueva referencia de diseño web en España. Especialistas en diseño y desarrollo web para darle la imagen digital que necesita tu negocio. Tu sitio de confianza para escalar tu local.',
         ctaPrimary: {
-            href: '/contacto',
+            href: 'https://wa.me/34634779186?text=Hola%20Tu%20Negocio%20En%20Internet%20estaba%20intersado%20en%20la%20creación%20de%20un%20sitio%20web',
             icon: 'ArrowUpRight',
             text: 'Consigue tu web'
         },
@@ -302,7 +302,7 @@ export const SITE_CONFIG: SiteConfig = {
                 links: {
                     phone: {
                         icon: 'Phone',
-                        href: 'https://wa.me/[34634779186]?text=Hola%20Tu%20Negocio%20En %Internet%20estaba%20intersado%en%20la%20creación%20de%20un%20sitio%20web'
+                        href: 'https://wa.me/34634779186?text=Hola%20Tu%20Negocio%20En%20Internet%20estaba%20intersado%20en%20la%20creación%20de%20un%20sitio%20web'
                     }
                 }
             }
@@ -312,7 +312,7 @@ export const SITE_CONFIG: SiteConfig = {
         logo: 'Tu Negocio En Internet',
         desc: 'La nueva referencia de diseño web en España. Especialistas en diseño y desarrollo web para darle la imagen digital que necesita tu negocio. Tu sitio de confianza para escalar tu negocio.',
         socialLinks: [
-            { icon: "Phone", href: "https://wa.me/[34634779186]?text=Hola%20Tu%20Negocio%20En %Internet%20estaba%20intersado%en%20la%20creación%20de%20un%20sitio%20web" }
+            { icon: "Phone", href: "https://wa.me/34634779186?text=Hola%20Tu%20Negocio%20En%20Internet%20estaba%20intersado%20en%20la%20creación%20de%20un%20sitio%20web" }
         ],
         copyright: '2026 - Tu Negocio En Internet'
     },
